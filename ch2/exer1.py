@@ -14,11 +14,13 @@
 # convert that to metric:
 # lbs -> kg = lbs/2.205
 
+
+# height input
 print("How tall are you? (Imperial)")
 ft = int(input("Enter Feet: "))
 inch = int(input("Enter Inches: "))
 
-# calc imperial height to metric
+# height calc
 total_in = ft * 12
 total_in += inch
 print(f"You are {total_in} inches tall")
@@ -27,3 +29,15 @@ print(f"You are {cm} cm tall")
 meters = cm / 100
 print(f"You are {meters} meters tall")
 
+
+
+# weight input
+print("How much do you weight? (Imperial)")
+lbs = float(input("Enter weight in pounds (lbs): "))
+# weight calc
+kg = lbs/2.205
+print(f"You weight {kg:.2f} in kg")
+
+#BMI calc
+bmi = kg / (meters**2)
+print(f"BMI: {bmi:.3f}")
