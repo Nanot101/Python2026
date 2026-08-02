@@ -1,19 +1,4 @@
-# **BMI Calculator** — Take height and weight as input, compute BMI, print the numeric result
-
-# BMI = weight (kg) / height (in meters)^2
-
-# height: using imperial so feet and inches. 
-# convert that to metric:
-# calc height to inches -> cm -> meters
-# ft * 12 = in
-# in * 2.54 = cm
-# cm / 100 = meters
-
-
-# weight: using imperial so pounds (lbs)
-# convert that to metric:
-# lbs -> kg = lbs/2.205
-
+#  **BMI Categorizer (extend project from section 2)** — Take the BMI number and print a category: underweight, normal, overweight, obese.
 
 # height input
 print("How tall are you? (Imperial)")
