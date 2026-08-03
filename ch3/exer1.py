@@ -26,3 +26,18 @@ print(f"You weigh {kg:.2f} in kg")
 #BMI calc
 bmi = kg / (meters**2)
 print(f"BMI: {bmi:.2f}")
+
+# bmi = float(input("Enter BMI: "))
+
+if bmi < 18.5:
+    print("Underweight")
+elif 18.5 <= bmi < 25:
+    print("Healthy weight")
+elif 25 <= bmi < 30:
+    print("Overweight")
+elif 30 <= bmi < 35:
+    print("Obese Class 1")
+elif 35 <= bmi < 40:
+    print("Obese Class 2")
+elif bmi >= 40:
+    print("Obese Class 3")
