@@ -1,5 +1,7 @@
 # **To-Do List (console-based)** — Let the user add, remove, and view tasks in a loop until they type "quit." Store tasks in a list.
 
+# FIXME: input VALUE ERROR, switch to string user input
+
 task_choice = ["Add task", "Remove task", "View tasks", "Quit"]
 to_do = []
 user_str = ""
